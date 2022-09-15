@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: MediaQuery.of(context).size.width,
                 padding: const EdgeInsets.all(0.0),
                 child: Image.asset(
-                  'image/barca_1.jpg',
+                  'asset/barca_1.jpg',
                   fit: BoxFit.fill,
                 ),
               ),
@@ -133,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Container(
                           width: MediaQuery.of(context).size.width,
                           padding: const EdgeInsets.all(0.0),
-                          child: Image.asset("image/barca_2.jpg"),
+                          child: Image.asset("asset/barca_2.jpg"),
                         ),
                       ),
                       Expanded(
@@ -179,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           width: MediaQuery.of(context).size.width,
                           padding: const EdgeInsets.all(0.0),
                           // child: Image.asset("assets/images/foto2.jpeg"),
-                          child: Image.asset("image/barcelona_3.jpg"),
+                          child: Image.asset("asset/barca_3.jpg"),
                         ),
                       ),
                       Expanded(
